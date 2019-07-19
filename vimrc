@@ -1,8 +1,13 @@
 set nocompatible				" 运行非兼容VI模式
 
 "-------------------------------Themes and Color---------------------------------------
-set t_CO=256					  " Vim在TUI模式下使用颜色数量
+set t_Co=256					  " Vim在TUI模式下使用颜色数量
 syntax on						    " 开启语法高亮
+
+" airline_theme
+let g:airline_theme="base16"
+let g:airline_powerline_fonts = 1
+
 
 "-------------------------------UI Tweak-----------------------------------------------
 set number					  	" 显示行号
@@ -41,9 +46,15 @@ set softabstop=4        " 使用<Tab>或<BS>自动插入或删除相应的空格
 
 
 "-------------------------------Github plugin-----------------------------------------------
-Plugin 'dracula/vim'
+" 颜色方案与主题
+" Plugin 'dracula/vim'
+" Vim的Tree插件
 Bundle 'ryanoasis/vim-devicons'
+" 主题插件
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" Swift插件
 Plugin 'mitsuse/autocomplete-swift'
 Plugin 'keith/swift.vim'
 Plugin 'landaire/deoplete-swift'
