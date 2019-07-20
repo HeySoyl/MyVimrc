@@ -324,6 +324,6 @@ nnoremap <leader>G :GV!<cr>
 nnoremap <leader>gg :GV?<cr>
 
 " 个性化
-if filereadable(expand($HOME . '/.vimrc.local'))
-    source $HOME/.vimrc.local
-endif
+" if filereadable(expand($HOME . '/.vimrc.local'))
+"     source $HOME/.vimrc.local
+" endif
