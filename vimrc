@@ -87,7 +87,7 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 插件列表
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call plug#begin('~/.vim/plugged')
+call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'chxuan/cpp-mode'
@@ -134,8 +134,6 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'mitsuse/autocomplete-swift'
 Plugin 'keith/swift.vim'
 Plugin 'landaire/deoplete-swift'
-
-call plug#end()
 
 " 主题
 set background=dark
@@ -329,3 +327,6 @@ nnoremap <leader>gg :GV?<cr>
 " if filereadable(expand($HOME . '/.vimrc.local'))
 "     source $HOME/.vimrc.local
 " endif
+
+
+call vundle#end()
