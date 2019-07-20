@@ -34,12 +34,12 @@ let g:ycm_min_num_of_chars_for_completion=2                 " 从第2个键入�
 Plugin 'VundleVim/Vundle.vim'
 
 " 颜色方案与主题
-" Plugin 'dracula/vim'
+Plugin 'dracula/vim'
 " Vim的Tree插件
 Bundle 'ryanoasis/vim-devicons'
 
 Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'vim-airline/vim-airline-themes'
 
 "vim-airline配置:优化vim界面"
 "let g:airline#extensions#tabline#enabled = 1
@@ -50,7 +50,7 @@ set laststatus=2
 " 使用powerline打过补丁的字体
 let g:airline_powerline_fonts = 1
 " 主题
-let g:airline_theme="base16"
+" let g:airline_theme="base16"
 " 开启tabline
 let g:airline#extensions#tabline#enabled = 1
 " tabline中当前buffer两端的分隔字符
