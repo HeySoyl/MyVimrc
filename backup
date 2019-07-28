@@ -2,3 +2,8 @@
 
 alias proxy-on='export http_proxy=127.0.0.1:1087;export https_proxy=$http_proxy'                                                    
 alias proxy-off='unset http_proxy;unset https_proxy'
+
+
+## yezhi
+https://www.yeziapp.com/list/macOS/
+C02SQ2KHGYFH
