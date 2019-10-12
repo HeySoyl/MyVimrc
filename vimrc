@@ -138,7 +138,7 @@ Plugin 'landaire/deoplete-swift'
 " 主题
 set background=dark
 let g:onedark_termcolors=256
-colorscheme onedark
+colorscheme darkblue
 
 " Airline
 let g:airline_theme="onedark"
